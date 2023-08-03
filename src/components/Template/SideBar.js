@@ -20,7 +20,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>Sobre</h2>
       <p>Olá, eu sou o Suayder. Sou graduado em Ciência da computação pela <a href="https://palmas.uft.edu.br/grad/ccomp/">UFT</a> e estudante de mestrado em ciência da computação
-        no <a href="http://escience.ime.usp.br/">IME-USP</a>. Gosto de resolver problemas que me desafiam a usar o que há de estado da arte na tecnologia e sou apaixonado por Linux s2. Tenho expertise em ciência de dados, machine learning,
+        no <a href="http://escience.ime.usp.br/">IME-USP</a>. Gosto desta ideia de ser um <i>problem solver</i> e usar o que há de estado da arte na tecnologia. Sou apaixonado por Linux s2. Tenho expertise em ciência de dados, machine learning,
         visão computacional e computeiro nato que gosta dos mais mais baixos níveis do computador.
       </p>
       <ul className="actions">

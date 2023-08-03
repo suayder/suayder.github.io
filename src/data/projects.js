@@ -1,47 +1,50 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    id: 'balltracking',
+    title: 'Câmera automática/Ball Tracking',
+    subtitle: 'Computer vision | Sport analytics',
+    image: '/images/projects/ball-tracking.png',
+    link: 'https://vimeo.com/640142052',
+    date: '2023-01-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'A solução desenvolvida soma a tecnologia de detecção de objetos em tempo real combinadas a tenologias de análise de movimento e espaço '
+      + 'a fim de automatizar o processamento de vídeos esportivos para melhorar a experiência do telespectador.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    id: 'customersegmentation',
+    title: 'Segmentação de clientes',
+    subtitle: 'Data Science | Business inteligence',
+    image: 'images/projects/customersegmentation.png',
+    link: '',
+    date: '2022-09-01',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Segmentação de clientes utilizando dados de vendas (CRM) '
+      + 'a fim de prever demanda a partir da jornada do cliente.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    id: 'finops',
+    title: 'FinOps ETL',
+    subtitle: 'Engenharia de dados para operações financeiras',
+    link: '',
+    image: '/images/projects/finops.png',
+    date: '2021-12-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Um pipeline completo de engenharia de dados para operações financeiras, garantindo confiança e segurança nas transações. '
+      + 'Como resultado foi feita a migração de todo o sistema transacional que era on-promisses no mongodb e após se tornou '
+      + 'um sistema de transação armazenado e gerenciado em cloud (AWS)',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    id: 'cropsegmentation',
+    title: 'Segmentação de talhões',
+    subtitle: 'Computer Vision | Segmentação de imagens de sattélite',
+    link: '',
+    image: '/images/projects/crop_segmentation.png',
+    date: '2020-09-20',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Faz parte de uma solução de monitoramento a baixo custo'
+      + 'onde o objetivo foi melhorar a segmentação de talhões a partir de imagens de satélite para um monitoramento mais detalhado de plantações. '
+      + 'Foi entregue um modelo de deep learning treinado alcançando uma acurácia total de 85%, 7% de melhoria comparado ao processo anterior.',
   },
 ];
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
+import { Link } from 'react-router-dom';
 
 const Cell = ({ data }) => (
   <div className="cell-container">
@@ -9,11 +10,20 @@ const Cell = ({ data }) => (
         <h3><a href={data.link}>{data.title}</a></h3>
         <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
       </header>
-      <a href={data.link} className="image">
+      <Link to={`/projects/${data.id}`}>
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
-      </a>
+      </Link>
+      {/* <a href={data.link} className="image">
+      </a> */}
       <div className="description">
-        <p>{data.desc}</p>
+        <p>
+          {data.desc}
+          <br />
+          <Link to={`/projects/${data.id}`}>
+            <b>Clique aqui para ler mais</b>
+          </Link>
+          {/* <a href="link"><b>Clique aqui para ler mais</b></a> */}
+        </p>
       </div>
     </article>
   </div>
@@ -21,6 +31,7 @@ const Cell = ({ data }) => (
 
 Cell.propTypes = {
   data: PropTypes.shape({
+    id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
     image: PropTypes.string.isRequired,
