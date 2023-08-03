@@ -50,7 +50,7 @@ Nos últimos meses tenho me dedicado a aprender técnicas de processamento de li
 
 # Minhas metas e sonhos 
 
-- Ser o profissional que faz a diferença
-- Aliás, sobre ser um profissional, eu quero ser um pesquisador de excelência
+- Fazer a diferença 
+- Sobre ser um profissional, eu quero ser um pesquisador de excelência
 - Ter uma vida tranquila em um lugar bem tranquilo, longe da cidade grande
 - Sempre ser uma pessoa boa e do bem
