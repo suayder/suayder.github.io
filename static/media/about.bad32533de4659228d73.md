@@ -1,13 +1,14 @@
 
 # Intro
 
-Tenho experiência com assuntos de aprendizado de máquina, especialmente em visão computacional. +3 anos trabalhando na área de dados, desde projetos de análise de dados à pesquisar, desenvolver e fazer deploy de modelos de deep learning em aplicações de alta diponibilidade em cloud. Desenvolvedor Python, experiências em frameworks de Deep Learning PyTorch, TensorFlow e aplicações de machine learning com scikit-learm, scipy, pandas, dentre outros.
+Tenho experiência com assuntos de aprendizado de máquina, especialmente em Visão Computacional e Deep Learning. +4 anos de experiência no campo, estive envolvido em inúmeros projetos, desde sua concepção até sua transformação em produtos bem-sucedidos (às vezes, malsucedidos). Além disso, tenho uma valiosa experiência em colaboração com equipes de negócios, aplicando meu conhecimento técnico para fornecer soluções orientadas por dados para inteligência de negócios e ciência de dados em diversas indústrias. Desenvolvedor Python, experiências em frameworks de Deep Learning PyTorch, TensorFlow e aplicações de machine learning com scikit-learm, scipy, pandas, dentre outros.
+
 
 # Atualmente 
 
-Estudante de mestrado no [departamento ciência da computação](https://www.ime.usp.br/pos-computacao/) da universidade de São Paulo, pesquisa voltada a desenvolver métodos de Machine learning com foco em aplicações para cidades inteligentes e planejamento urbano.
+Estudante de mestrado no [Departamento Ciência da Computação](https://www.ime.usp.br/pos-computacao/) da Universidade de São Paulo, pesquisa voltada a desenvolver  métodos de visão computacional para dispositivos de recurso limitado, mais especificamente, Smartphones.
 
-Nos últimos meses tenho me dedicado a aprender técnicas de processamento de linguagem natural (NLP) e tópicos de machine learning aplicáveis a computação em borda, como federated learning e domain adaptation.
+Nos últimos meses tenho me dedicado a aprender técnicas de Processamento de Linguagem Natural (NLP) e tópicos de machine learning aplicáveis a computação em borda, como Federated Learning e Domain Adaptation.
 
 
 # Um pouco da minha história
