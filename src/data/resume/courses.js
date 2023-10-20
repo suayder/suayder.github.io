@@ -1,4 +1,5 @@
 const courses = [
+
   {
     title: 'Topicos avançados em programação orientada a Objetos - Parte 2',
     number: 'OO2',
@@ -98,6 +99,12 @@ const courses = [
   {
     title: 'Tópicos Avançados de Programação Orientada a Objetos',
     number: 'MAC5714',
+    link: '',
+    university: 'USP',
+  },
+  {
+    title: 'Linguagens, Autômatos e Computabilidade',
+    number: 'MAC4722',
     link: '',
     university: 'USP',
   },

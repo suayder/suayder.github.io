@@ -1,5 +1,22 @@
 const positions = [
   {
+    company: 'Ingredion Incorporated',
+    position: 'Cientista de Dados',
+    level: 'Senior',
+    link: 'https://www.ingredion.com',
+    daterange: 'Fev 2023 - Nov 2023',
+    points: [
+      'No guarda-chuva de Go-to-Market levando soluções de Inteligência Artificial para inteligência competitiva e melhoria de processos e planejamento',
+      'Desenvolvimento de modelos de Machine Learning para previsão de demanda',
+      'Random Forest, SVM, DBScan, KNN, LSTMs, ARIMA, SARIMA, Redes Neurais, Explicabilidade de modelos',
+      'Modelos de Machine Learning a fim de entender a Experiência do cliente e drivers de NPS',
+      'Qualidade de dados',
+      'Data Lake, ETL e arquiteturas de Machine Learning em cloud (Azure)',
+      'Transformação digital e evangelização de cultura data Driven',
+      'Stacks: Python, PowerBi,TensorFlow, Pandas, Numpy, Scipy, Azure',
+    ],
+  },
+  {
     company: 'Isportistics',
     position: 'Cientista de Dados, foco em visão computacional - R&D',
     level: 'Pleno',
@@ -63,7 +80,7 @@ const positions = [
     position: 'Instrutor de cursos, aprendizado de máquina e processamento de imagens',
     level: 'Instrutor',
     link: 'https://www.alura.com.br/',
-    daterange: 'Mai 2019 - Aug 2015',
+    daterange: 'Mai 2019 - Aug 2020 ',
     points: [
       'Cursos de processamento de imagens e machine learning gravados para a plataforma',
       'Estudo de tema de demanda e criação de projeto',

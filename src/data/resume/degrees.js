@@ -3,7 +3,7 @@ const degrees = [
     school: 'Universidade de São Paulo',
     degree: 'M.S. Ciência da computação',
     link: 'https://www.ime.usp.br/',
-    year: 'Em andamento. Previsão de conclusão 2023',
+    year: 'Em andamento. Previsão de conclusão 2024',
   },
   {
     school: 'Universidade Federal do Tocantins',

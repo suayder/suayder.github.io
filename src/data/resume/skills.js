@@ -51,7 +51,7 @@ const skills = [
   {
     title: 'Amazon Web Services',
     competency: 3,
-    category: ['Web Development', 'Tools'],
+    category: ['Cloud', 'Tools'],
   },
   {
     title: 'MongoDB',
@@ -81,7 +81,7 @@ const skills = [
   {
     title: 'Google Cloud Platform',
     competency: 3,
-    category: ['Tools', 'Web Development'],
+    category: ['Tools', 'Cloud'],
   },
   {
     title: 'Jupyter',
@@ -112,6 +112,16 @@ const skills = [
     title: 'Matplotlib',
     competency: 4,
     category: ['Data Engineering', 'Data Science', 'Python'],
+  },
+  {
+    title: 'PowerBI',
+    competency: 2,
+    category: ['Data Science', 'BI'],
+  },
+  {
+    title: 'Azure',
+    competency: 3,
+    category: ['Data Engineering', 'Data Science', 'Machine Learning', 'Cloud'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 

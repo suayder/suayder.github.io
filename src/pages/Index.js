@@ -16,7 +16,11 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <p> Bem vindos ao meu site pessoal. Por favor, sinta-se a vontade para ler mais <Link to="/about">sobre mim</Link>,
+      <p>Olá! Bem vindos ao meu mundo virtual.</p>
+      Aqui compartilho insights, projetos emocionantes e descobertas que em uma mistura de ciência e
+      <p>arte formam a minha essência única.</p>
+
+      <p>Por favor, sinta-se a vontade para ler mais <Link to="/about">sobre mim</Link>,
         ou você pode dar uma olhada no meu {' '}
         <Link to="/resume">resumo profisisonal</Link>, {' '}
         <Link to="/projects">projetos</Link> {' '}
