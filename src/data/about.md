@@ -1,14 +1,14 @@
 
 # Intro
 
-Tenho experiência com assuntos de aprendizado de máquina, especialmente em Visão Computacional e Deep Learning. +4 anos de experiência no campo, estive envolvido em inúmeros projetos, desde sua concepção até sua transformação em produtos bem-sucedidos (às vezes, malsucedidos). Além disso, tenho uma valiosa experiência em colaboração com equipes de negócios, aplicando meu conhecimento técnico para fornecer soluções orientadas por dados para inteligência de negócios e ciência de dados em diversas indústrias. Desenvolvedor Python, experiências em frameworks de Deep Learning PyTorch, TensorFlow e aplicações de machine learning com scikit-learm, scipy, pandas, dentre outros.
+Tenho experiência com assuntos de aprendizado de máquina, especialmente em Visão Computacional e Deep Learning. +5 anos de experiência no campo, estive envolvido em inúmeros projetos, desde sua concepção até sua transformação em produtos bem-sucedidos (às vezes, malsucedidos). Além disso, tenho uma valiosa experiência em colaboração com equipes de negócios, aplicando meu conhecimento técnico para fornecer soluções orientadas por dados para inteligência de negócios e ciência de dados em diversas indústrias. Desenvolvedor Python, experiências em frameworks de Deep Learning PyTorch, TensorFlow e aplicações de machine learning com scikit-learn, scipy, pandas, dentre outros.
 
 
 # Atualmente 
 
-Estudante de mestrado no [Departamento Ciência da Computação](https://www.ime.usp.br/pos-computacao/) da Universidade de São Paulo, pesquisa voltada a desenvolver  métodos de visão computacional para dispositivos de recurso limitado, mais especificamente, Smartphones.
+Engenheiro de Machine Learning no [Venturus](https://venturus.org.br/), instituto de tecnologia em Manaus-AM, onde lidero P&D em visão computacional, compressão de modelos, IA Generativa, VLMs multimodais e edge-AI.
 
-Nos últimos meses tenho me dedicado a aprender técnicas de Processamento de Linguagem Natural (NLP) e tópicos de machine learning aplicáveis a computação em borda, como Federated Learning e Domain Adaptation.
+Concluí o mestrado em Ciência da Computação na [Universidade de São Paulo](https://www.ime.usp.br/pos-computacao/) em 2025, com pesquisa voltada ao desenvolvimento de métodos de visão computacional para dispositivos de recurso limitado.
 
 
 # Um pouco da minha história
@@ -31,9 +31,11 @@ Nos últimos meses tenho me dedicado a aprender técnicas de Processamento de Li
 
 - Em 2021 minha namorada, até então morando no Tocantins, veio morar comigo e adotamos um doguinho juntos :).
 
-- Em 2022 começei o meu mestrado em ciência da computação, algo muito almejado antes por mim porém precisava me organizar para conseguir este pique de trabalhar e estudar um mestrado.
+- Em 2022 comecei o meu mestrado em ciência da computação, algo muito almejado antes por mim porém precisava me organizar para conseguir este pique de trabalhar e estudar um mestrado.
 
-- em 2023.... o ano já tem ótimas surpresas, mas vamos esperar mais para ver o que nos espera.
+- Em 2023 passei por experiências incríveis em empresas como Ingredion e Mantis-AI, ampliando meu repertório em ciência de dados e visão computacional.
+
+- Em 2024/2025 conclui o mestrado na USP e assumi o papel de Engenheiro de Machine Learning no Venturus, em Manaus, levando pesquisa e IA para produtos de impacto real.
 
 
 # Eu gosto de
