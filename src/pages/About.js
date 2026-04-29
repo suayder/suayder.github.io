@@ -3,33 +3,39 @@ import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
 import Main from '../layouts/Main';
+import useLanguage from '../hooks/useLanguage';
+import ptUi from '../data/ui';
+import enUi from '../data/en/ui';
 
 const About = () => {
+  const { lang } = useLanguage();
+  const t = lang === 'en' ? enUi : ptUi;
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    import('../data/about.md')
+    const mdImport = lang === 'en'
+      ? import('../data/en/about.md')
+      : import('../data/about.md');
+
+    mdImport
       .then((res) => {
         fetch(res.default)
           .then((r) => r.text())
           .then(setMarkdown);
       }).catch(console.error);
-  });
+  }, [lang]);
 
   const count = markdown.split(/\s+/)
     .map((s) => s.replace(/\W/g, ''))
     .filter((s) => s.length).length;
 
   return (
-    <Main
-      title="Sobre Suayder"
-      description="Learn about Suayder"
-    >
+    <Main title={t.about.title} description={t.about.description}>
       <article className="post markdown" id="about">
         <header>
           <div className="title">
-            <h2><Link to="/about">Sobre mim</Link></h2>
-            <p>(Em aproximadamente {count} Palavras)</p>
+            <h2><Link to="/about">{t.about.heading}</Link></h2>
+            <p>{t.about.wordCount.replace('{count}', count)}</p>
           </div>
         </header>
         <Markdown>

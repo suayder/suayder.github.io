@@ -1,0 +1,98 @@
+const positions = [
+  {
+    company: 'Venturus',
+    position: 'Machine Learning Engineer',
+    level: 'Senior',
+    link: 'https://venturus.org.br/',
+    daterange: 'Dec 2023 - Present',
+    points: [
+      'R&D: Leading research and development for computer vision tasks, model compression, Generative AI applications, multi-modal VLMs, and edge-AI.',
+      'Team Leadership: orienting and guiding the development and research team.',
+      'Feature Ownership: end-to-end development and deployment of key features for products.',
+      'Client Collaboration: close interaction with clients to align research with business needs.',
+      'Stacks: Python, C/C++, Java/Kotlin, Microsoft Azure (Machine Learning, Functions, DevOps), TensorFlow, PyTorch, MLFlow, MinIO',
+    ],
+  },
+  {
+    company: 'Ingredion Incorporated',
+    position: 'Data Scientist',
+    level: 'Senior',
+    link: 'https://www.ingredion.com',
+    daterange: 'Apr 2023 - Oct 2023',
+    points: [
+      'Solved business challenges through data, optimizing supply chain, improving customer engagement, and fostering a data-driven culture.',
+      'Implemented the company\'s core data infrastructure: data lake, ETL pipelines, and machine learning systems.',
+      'Aligned technical solutions with business goals, driving efficiency and insight generation.',
+      'Stacks: SQL, Python, Microsoft Azure (Machine Learning, Data Factory, Functions, DevOps), PyTorch, TensorFlow, MLFlow',
+    ],
+  },
+  {
+    company: 'Mantis-AI',
+    position: 'Computer Vision Scientist - R&D',
+    level: 'Mid-level',
+    link: 'https://isportistics.com/',
+    daterange: 'Jul 2022 - Feb 2023',
+    points: [
+      'Developed deep learning and statistical solutions for sports video analytics, focusing primarily on soccer.',
+      'Led end-to-end projects: from problem definition with stakeholders to research, model development, evaluation, and cloud deployment.',
+      'Applied neural networks to extract insights and deliver actionable results.',
+      'Stacks: Python, AWS, pandas, numpy, scikit-image, scikit-learn, scipy, OpenCV, PyTorch, ffmpeg',
+    ],
+  },
+  {
+    company: 'Luby',
+    position: 'Data Scientist',
+    level: 'Mid-level',
+    link: 'https://luby.com.br/',
+    daterange: 'Nov 2021 - Aug 2022',
+    points: [
+      'Tech lead for the data science team within the BI core at Luby; mentored 3 people during the period.',
+      'Transformed and analyzed data to generate KPIs and enable business insights; supported dashboard development.',
+      'Built predictive models using machine learning techniques, including random forests and neural networks.',
+      'Led a squad of junior and mid-level data analysts, guiding project execution and skill development.',
+      'Stacks: Python, PySpark, pandas, scikit-learn, AWS, MongoDB',
+    ],
+  },
+  {
+    company: 'A de Agro',
+    position: 'Data Scientist, Computer Vision focus',
+    level: 'Junior',
+    link: 'https://www.adeagro.com.br',
+    daterange: 'Dec 2020 - Aug 2021',
+    points: [
+      'Trained semantic segmentation models to segment crop fields from satellite images.',
+      'Applied remote sensing techniques and image processing to extract information from satellite imagery.',
+      'Researched and experimented with state-of-the-art models for domain-specific problems.',
+      'Built soybean yield forecasting models.',
+      'Stacks: Python, TensorFlow, scikit-learn, OpenCV, AWS, gdal, rasterio',
+    ],
+  },
+  {
+    company: 'Santo Digital',
+    position: 'Machine Learning Engineer',
+    level: 'Junior',
+    link: 'https://santodigital.com.br/',
+    daterange: 'Jan 2020 - Nov 2020',
+    points: [
+      'Designed, developed, and maintained scalable machine learning and computer vision models in cloud environments.',
+      'Built data pipelines for major banking clients, processing data in Spark environments with GCP Dataflow.',
+      'Trained models for POCs: object detection, face comparison, and OCR from gas station plates.',
+      'Stacks: Python, TensorFlow, C++, OpenCV, GCP, numpy, pandas',
+    ],
+  },
+  {
+    company: 'Alura Online Courses',
+    position: 'Instructor — Machine Learning & Image Processing',
+    level: 'Instructor',
+    link: 'https://www.alura.com.br/',
+    daterange: 'May 2019 - Aug 2020',
+    points: [
+      'Developed and recorded Computer Vision courses for the platform, from introductory Image Processing to Deep Learning.',
+      'Researched in-demand topics and designed the course project.',
+      'Wrote lesson scripts and created all course content: projects, exercises, slides, examples, and extras.',
+      'Provided support for student questions and issues in the first months after each course launch.',
+    ],
+  },
+];
+
+export default positions;

@@ -1,19 +1,19 @@
 const degrees = [
   {
-    school: 'Universidade de São Paulo',
-    degree: 'M.S. Ciência da computação',
+    school: 'University of São Paulo',
+    degree: 'M.S. Computer Science',
     link: 'https://www.ime.usp.br/',
     year: 2025,
   },
   {
-    school: 'Universidade Federal do Tocantins',
+    school: 'Federal University of Tocantins',
     degree: 'B.S. Computer Science',
     link: 'https://palmas.uft.edu.br/grad/ccomp/',
     year: 2019,
   },
   {
-    school: 'Instituto Federal do Tocantins',
-    degree: 'Técnico, mecatrônica',
+    school: 'Federal Institute of Tocantins',
+    degree: 'Technical, Mechatronics',
     link: 'https://palmas.uft.edu.br/grad/ccomp/',
     year: 2015,
   },
