@@ -1,11 +1,11 @@
 import React, { Suspense, lazy, useState } from 'react';
-
 import { Link } from 'react-router-dom';
-import routes from '../../data/routes';
+import PropTypes from 'prop-types';
+import LanguageToggle from './LanguageToggle';
 
 const Menu = lazy(() => import('react-burger-menu/lib/menus/slide'));
 
-const Hamburger = () => {
+const Hamburger = ({ routes }) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -33,11 +33,22 @@ const Hamburger = () => {
                 </Link>
               </li>
             ))}
+            <li className="hamburger-lang-toggle">
+              <LanguageToggle />
+            </li>
           </ul>
         </Menu>
       </Suspense>
     </div>
   );
+};
+
+Hamburger.propTypes = {
+  routes: PropTypes.arrayOf(PropTypes.shape({
+    label: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired,
+    index: PropTypes.bool,
+  })).isRequired,
 };
 
 export default Hamburger;
