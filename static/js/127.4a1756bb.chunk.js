@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[127],{127:function(e,s,p){e.exports=p.p+"static/media/finops.91f1f21c886a9c5559eb.md"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[911],{2911:function(e,s,a){e.exports=a.p+"static/media/balltracking.c1da553058788c85bec8.md"}}]);

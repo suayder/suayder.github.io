@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[625],{5625:function(e,s,t){e.exports=t.p+"static/media/customersegmentation.959d660b3e15aef6d8d2.md"}}]);

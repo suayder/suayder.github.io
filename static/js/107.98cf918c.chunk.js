@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[107],{4107:function(e,s,a){e.exports=a.p+"static/media/cropsegmentation.8ca0ada713a3d0ee9923.md"}}]);
