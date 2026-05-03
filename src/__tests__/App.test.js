@@ -8,6 +8,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { act } from 'react-dom/test-utils';
 import App from '../App';
+import { LanguageProvider } from '../contexts/LanguageContext';
 
 describe('renders the app', () => {
   // mocks the fetch API used on the stats page and the about page.
@@ -26,7 +27,11 @@ describe('renders the app', () => {
     container = document.createElement('div');
     document.body.appendChild(container);
     await act(async () => {
-      await ReactDOM.createRoot(container).render(<App />);
+      await ReactDOM.createRoot(container).render(
+        <LanguageProvider>
+          <App />
+        </LanguageProvider>,
+      );
     });
   });
 
@@ -51,7 +56,7 @@ describe('renders the app', () => {
     await act(async () => {
       await aboutLink.click();
     });
-    expect(document.title).toContain('About |');
+    expect(document.title).toContain('Sobre Suayder');
     expect(window.location.pathname).toBe('/about');
     expect(window.scrollTo).toHaveBeenNthCalledWith(1, 0, 0);
     expect(global.fetch).toHaveBeenCalledTimes(1);
@@ -61,47 +66,34 @@ describe('renders the app', () => {
 
   it('can navigate to /resume', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(2) > a');
-    expect(contactLink).toBeInTheDocument();
+    const resumeLink = document.querySelector('#header > nav > ul > li:nth-child(2) > a');
+    expect(resumeLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await resumeLink.click();
     });
-    expect(document.title).toContain('Resume |');
+    expect(document.title).toContain('Resumo');
     expect(window.location.pathname).toBe('/resume');
   });
 
   it('can navigate to /projects', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
-    expect(contactLink).toBeInTheDocument();
+    const projectsLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
+    expect(projectsLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await projectsLink.click();
     });
-    expect(document.title).toContain('Projects |');
+    expect(document.title).toContain('Projetos');
     expect(window.location.pathname).toBe('/projects');
   });
 
-  it('can navigate to /stats', async () => {
-    expect.assertions(5);
+  it('can navigate to /contact', async () => {
+    expect.assertions(3);
     const contactLink = document.querySelector('#header > nav > ul > li:nth-child(4) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
     });
-    expect(document.title).toContain('Stats |');
-    expect(window.location.pathname).toBe('/stats');
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(jsonMock).toHaveBeenCalledTimes(1);
-  });
-
-  it('can navigate to /contact', async () => {
-    expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(5) > a');
-    expect(contactLink).toBeInTheDocument();
-    await act(async () => {
-      await contactLink.click();
-    });
-    expect(document.title).toContain('Contact |');
+    expect(document.title).toContain('Contato');
     expect(window.location.pathname).toBe('/contact');
   });
 });
