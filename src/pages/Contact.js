@@ -5,7 +5,7 @@ import Main from '../layouts/Main';
 import EmailLink from '../components/Contact/EmailLink';
 import ContactIcons from '../components/Contact/ContactIcons';
 import useLanguage from '../hooks/useLanguage';
-import ptUi from '../data/ui';
+import ptUi from '../data/pt/ui';
 import enUi from '../data/en/ui';
 
 const Contact = () => {

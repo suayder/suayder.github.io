@@ -1,6 +1,6 @@
 import React from 'react';
 import Table from './Table';
-import ptData from '../../data/stats/personal';
+import ptData from '../../data/pt/stats/personal';
 import enData from '../../data/en/stats/personal';
 import useLanguage from '../../hooks/useLanguage';
 

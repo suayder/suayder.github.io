@@ -4,7 +4,7 @@ import Markdown from 'markdown-to-jsx';
 
 import Main from '../layouts/Main';
 import useLanguage from '../hooks/useLanguage';
-import ptData from '../data/projects';
+import ptData from '../data/pt/projects';
 import enData from '../data/en/projects';
 
 const Project = () => {
@@ -18,7 +18,7 @@ const Project = () => {
   useEffect(() => {
     const mdImport = lang === 'en'
       ? import(`../data/en/projects/${id}.md`)
-      : import(`../data/projects/${id}.md`);
+      : import(`../data/pt/projects/${id}.md`);
 
     mdImport
       .then((res) => {

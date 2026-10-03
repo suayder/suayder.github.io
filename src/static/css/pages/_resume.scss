@@ -82,6 +82,47 @@
 	margin-bottom: .2em;
 }
 
+.keywords {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .4em;
+	padding: 0;
+	margin: .4em 0 .8em;
+
+	li {
+		font-size: .7em;
+		padding: .2em .8em;
+		border: 1px solid currentColor;
+		border-radius: 1em;
+		opacity: .8;
+	}
+}
+
+.home-stats {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5em;
+	margin: 1.5em 0;
+
+	.home-stat {
+		text-align: center;
+		min-width: 6em;
+
+		strong {
+			display: block;
+			font-size: 2em;
+			line-height: 1.1;
+		}
+
+		span {
+			font-size: .7em;
+			text-transform: uppercase;
+			letter-spacing: .1em;
+		}
+	}
+}
+
 .degree-container {
 	h4 {
 		font-weight: normal;

@@ -107,6 +107,18 @@ const courses = [
     link: '',
     university: 'USP',
   },
+  {
+    title: 'Claude Code in Action',
+    number: 'AI01',
+    link: '',
+    university: 'Anthropic',
+  },
+  {
+    title: 'Claude 101',
+    number: 'AI02',
+    link: '',
+    university: 'Anthropic',
+  },
 ];
 
 export default courses;

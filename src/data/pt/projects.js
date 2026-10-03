@@ -1,4 +1,3 @@
-// TODO Add a couple lines about each project
 const data = [
   {
     id: 'balltracking',
@@ -47,5 +46,4 @@ const data = [
       + 'Foi entregue um modelo de deep learning treinado alcançando uma acurácia total de 85%, 7% de melhoria comparado ao processo anterior.',
   },
 ];
-
 export default data;

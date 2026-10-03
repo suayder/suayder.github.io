@@ -3,6 +3,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 import { faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons/faGoogle';
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
 
@@ -31,6 +32,11 @@ const data = [
     link: 'https://medium.com/@suayder',
     label: 'Medium',
     icon: faMedium,
+  },
+  {
+    link: 'https://scholar.google.com/citations?user=Z9eoBjAAAAAJ&hl=en',
+    label: 'Google Scholar',
+    icon: faGoogle,
   },
 ];
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Hamburger from './Hamburger';
 import LanguageToggle from './LanguageToggle';
 import useLanguage from '../../hooks/useLanguage';
-import ptRoutes from '../../data/routes';
+import ptRoutes from '../../data/pt/routes';
 import enRoutes from '../../data/en/routes';
 
 const Navigation = () => {

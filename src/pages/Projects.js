@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 import Cell from '../components/Projects/Cell';
 import useLanguage from '../hooks/useLanguage';
-import ptData from '../data/projects';
+import ptData from '../data/pt/projects';
 import enData from '../data/en/projects';
-import ptUi from '../data/ui';
+import ptUi from '../data/pt/ui';
 import enUi from '../data/en/ui';
 
 const Projects = () => {

@@ -1,6 +1,3 @@
-// TODO: Add Athletic Skills, Office Skills,
-// Data Engineering, Data Science, ML Engineering, ... ?
-
 const skills = [
   {
     title: 'Python',
@@ -27,7 +24,6 @@ const skills = [
     competency: 4,
     category: ['Data Engineering', 'Data Science', 'Python'],
   },
-
   {
     title: 'Scikit-Learn',
     competency: 4,
@@ -134,7 +130,6 @@ const skills = [
     category: ['Tools', 'Cloud'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
-
 // this is a list of colors that I like. The length should be == to the
 // number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
@@ -150,7 +145,6 @@ const colors = [
   '#747fff',
   '#64cb7b',
 ];
-
 const categories = [
   ...new Set(skills.reduce((acc, { category }) => acc.concat(category), [])),
 ]
@@ -159,5 +153,4 @@ const categories = [
     name: category,
     color: colors[index],
   }));
-
 export { categories, skills };

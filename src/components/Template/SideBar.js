@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 import useLanguage from '../../hooks/useLanguage';
-import ptUi from '../../data/ui';
+import ptUi from '../../data/pt/ui';
 import enUi from '../../data/en/ui';
+import buildData from '../../data/build.json';
 
 const { PUBLIC_URL } = process.env;
 
@@ -39,6 +40,7 @@ const SideBar = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">&copy; Suayder Costa <Link to="/">suayder.github.io</Link>.</p>
+        <p className="copyright">{t.sidebar.lastUpdated(buildData.month, buildData.year)}</p>
       </section>
     </section>
   );

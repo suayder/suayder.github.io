@@ -7,6 +7,13 @@ const Job = ({ data }) => (
       <h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
       <p className="daterange"> {data.daterange}</p>
     </header>
+    {data.keywords && data.keywords.length > 0 && (
+      <ul className="keywords">
+        {data.keywords.map((keyword) => (
+          <li key={keyword}>{keyword}</li>
+        ))}
+      </ul>
+    )}
     <ul className="points">
       {data.points.map((point) => (
         <li key={point}>{point}</li>
@@ -21,6 +28,7 @@ Job.propTypes = {
     company: PropTypes.string.isRequired,
     position: PropTypes.string.isRequired,
     daterange: PropTypes.string.isRequired,
+    keywords: PropTypes.arrayOf(PropTypes.string),
     points: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
 };
